@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(174, 244, 244);
+    min-height: 100vh;
+    border: 10px solid rgb(1, 6, 8);
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: flex-end;
+}
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(2, 5, 44);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top_section h4{
+    font-size: 20px;
+    text-align: end;
+    font-weight: 200;
+}
+
+.image_container img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.about_section{
+    margin-top: 60px;
+}
+
+.about_section h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about_section p{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.legacy{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.legacy h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.legacy ul{
+    margin-left: 20px;
+}
+
+.legacy li{
+    padding: 5px;
+}
+
+footer{
+    margin: 50px 0;
+    text-align: end;
+}
+
+footer a:hover{
+    color: rgba(5, 148, 72, 0.943);
+}
